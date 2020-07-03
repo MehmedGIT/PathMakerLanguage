@@ -1,0 +1,8 @@
+go <*>;
+make <data/doctors>;
+go <data/doctors>;
+go <*>;
+if <doctors> go <*>;
+if <data> make <deneme>;
+ifnot <datus> make <olmaz>;
+make <data/doctors>

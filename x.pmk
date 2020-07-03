@@ -1,0 +1,5 @@
+ ifnot <ahmet/user>
+{ go <*>; make <data/doctors>;
+ if <user/ahmet> go <path_expression>;
+}
+ 

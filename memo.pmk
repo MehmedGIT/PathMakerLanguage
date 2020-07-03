@@ -1,0 +1,8 @@
+make [my comment] <data2/data3/data4/data5>;
+if <data2/data3/data4> go <data2/data3/data4>;
+if <data5> {make <data5var>; make 
+<data5var2>;} [my two 
+line comment]
+ifnot <dataYok> make <dataVar>;
+go <*/*> ;
+
