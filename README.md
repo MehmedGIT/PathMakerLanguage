@@ -1,23 +1,23 @@
 # Basic path maker interpreter
 
-
 Task: Path_maker is a basic scripting language for creating 
-directory trees. (Rules of the language are below). This is 
-a basic interpreter for Path_maker.
+directory trees. This is a basic interpreter for Path_maker.(Rules of the language are below).
 
-Basic Commands:
-go		<path_expression>;
-make		<path_expression>;
-delete 	<path_expression>;
+### Basic Commands:
+#### go		<path_expression>;
+#### make	<path_expression>;
+#### delete 	<path_expression>;
 	
-Control Structures:
-if		<path_expression> command
-ifnot 	<path_expression> command
+### Control Structures:
+#### if		<path_expression> command
+#### ifnot 	<path_expression> command
 
-command could be any Basic Command or Block
+Command could be any Basic Command or Block
 	
-Blocks: Between {}, they can be nested
-Comments: Between [], they cannot be nested
+### Blocks: Between {}, they can be nested
+### Comments: Between [], they cannot be nested
 	
-Note: Nested blocks are not fully functioning!
+## Note: 
+Nested blocks are not fully functioning currently!
+Also the delete <path_expression> should be fixed.
 
