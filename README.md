@@ -21,3 +21,5 @@ Command could be any Basic Command or Block
 Nested blocks are not fully functioning currently!
 Also the delete <path_expression> should be fixed.
 
+### Note 2
+The code was developed on Windows with the aid of MinGW. So, there might be some portability problems running the code on Linux. One problem you are going to face is the "mkdir" function. On Windows the function takes single parameter - the path value, on Linux it takes two parameters - the path value and the mode. I will make it runnable on both OS in the future.
